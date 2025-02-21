@@ -54,7 +54,7 @@ export const Contact = () => {
                       <img src={item.icon} alt={item.text} className="w-8 h-8" />
                     </div>
                     <span className="text-white font-medium text-lg">{item.text}</span>
-                    <img src="/myemail.svg" alt="email" className="bg-white rounded-xl" width={48} height={48}/>
+                    <img src="/myemail.svg" alt="email" className="bg-white rounded-xl w-full" />
                   </motion.div>
                 )}
               </Card3D>
